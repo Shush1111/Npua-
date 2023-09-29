@@ -1,0 +1,76 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+#root {
+    margin: auto;
+    width: 270px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #f8f7f7;
+    padding: 30px;
+}
+.text {
+    margin: auto;
+    width: 220px;
+}
+.text > h3 {
+    color: #1F41BB;
+    font-size: 30px;
+}
+.text > p {
+    color: #000;
+    font-size: 18px;
+}
+.formDiv {
+    margin-top: 30px;
+}
+form > input {
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 25px;
+    width: 250px;
+    height: 45px;
+    text-align: start;
+    padding-left: 15px;
+    font-size: 15px;
+}
+form > span {
+    color: #1F41BB;
+    font-size: 13px;
+    float: right;
+    margin-top: 25px;
+}
+form > button {
+    border: none;
+    border-radius: 10px;
+    width: 267px;
+    height: 45px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #1F41BB;
+    margin-top: 25px;
+}
+button:hover {
+    background-color: #5471db;
+    cursor: pointer;
+}   
+.media > p {
+    color: rgb(107, 105, 105);
+    margin-top: 30px;
+    font-size: 13px;
+    
+}
+.img > img {
+    width: 170px;
+}
+.error {
+    color: red;
+}
+.okey {
+    color: #000;
+}
+.rootError {
+    width: 6050px;
+}
